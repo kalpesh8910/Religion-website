@@ -1153,6 +1153,33 @@
     });
   }
 
+  function initMobileMenu() {
+    var headerRight = $(".header-right-cluster");
+    var navWrap = $(".header-nav-wrap");
+    if (!headerRight || !navWrap) return;
+
+    var btn = document.createElement("button");
+    btn.type = "button";
+    btn.className = "mobile-menu-btn";
+    btn.setAttribute("aria-label", "Toggle navigation");
+    btn.setAttribute("aria-expanded", "false");
+    btn.innerHTML = '<svg class="mobile-menu-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"/></svg>';
+
+    // Insert button before everything else in the right cluster, so it aligns near the logo on mobile if we want, or at the start of the remaining items
+    headerRight.insertBefore(btn, headerRight.firstChild);
+
+    btn.addEventListener("click", function () {
+      navWrap.classList.toggle("nav-is-open");
+      var isOpen = navWrap.classList.contains("nav-is-open");
+      btn.setAttribute("aria-expanded", isOpen);
+      if (isOpen) {
+        btn.innerHTML = '<svg class="mobile-menu-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/></svg>';
+      } else {
+        btn.innerHTML = '<svg class="mobile-menu-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"/></svg>';
+      }
+    });
+  }
+
   document.addEventListener("DOMContentLoaded", function () {
     if (!window.SITE_I18N) return;
     I().applyDomLang(I().getLang());
@@ -1169,5 +1196,6 @@
     initHeroCarousel();
     applyHeaderAvatar();
     ensureVisitorName();
+    initMobileMenu();
   });
 })();
