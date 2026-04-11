@@ -389,14 +389,14 @@
           raw != null && String(raw).trim() !== "" ? String(raw) : blank;
         parts.push(
           '<div class="rishi-rel-row">' +
-            '<span class="rishi-rel-role">' +
-            escapeHtml(role) +
-            "</span>" +
-            '<span class="rishi-rel-sep">:</span>' +
-            '<span class="rishi-rel-val">' +
-            escapeHtml(val) +
-            "</span>" +
-            "</div>"
+          '<span class="rishi-rel-role">' +
+          escapeHtml(role) +
+          "</span>" +
+          '<span class="rishi-rel-sep">:</span>' +
+          '<span class="rishi-rel-val">' +
+          escapeHtml(val) +
+          "</span>" +
+          "</div>"
         );
       });
       return parts.join("");
@@ -1008,7 +1008,7 @@
   function setStoredVisitorName(name) {
     try {
       localStorage.setItem("religionVisitorName", String(name || "").trim());
-    } catch (e) {}
+    } catch (e) { }
   }
 
   function getStoredProfileName() {
@@ -1087,18 +1087,21 @@
       btn.disabled = true;
       btn.textContent = "Saving...";
 
-      fetch('/save-name', {
+      // Replace this with your actual Formspree ID URL
+      var FORMSPREE_URL = "https://formspree.io/f/xzdknrov";
+
+      fetch(FORMSPREE_URL, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ name: val })
-      }).then(function(res) {
+        body: JSON.stringify({ VisitorName: val, Time: new Date().toLocaleString() })
+      }).then(function (res) {
         return res.json();
-      }).then(function() {
+      }).then(function () {
         setStoredVisitorName(val);
         overlay.remove();
-      }).catch(function(err) {
-        console.error("Failed to save to server:", err);
-        // Still let the user in if the local server isn't running
+      }).catch(function (err) {
+        console.error("Failed to save via Formspree:", err);
+        // Let the user in even if internet drops or Formspree URL is empty
         setStoredVisitorName(val);
         overlay.remove();
       });
