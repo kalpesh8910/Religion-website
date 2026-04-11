@@ -1168,6 +1168,6 @@
     renderMantroDropdown();
     initHeroCarousel();
     applyHeaderAvatar();
-    // ensureVisitorName();
+    ensureVisitorName();
   });
 })();
