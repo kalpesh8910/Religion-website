@@ -1083,8 +1083,25 @@
         input.focus();
         return;
       }
-      setStoredVisitorName(val);
-      overlay.remove();
+
+      btn.disabled = true;
+      btn.textContent = "Saving...";
+
+      fetch('/save-name', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ name: val })
+      }).then(function(res) {
+        return res.json();
+      }).then(function() {
+        setStoredVisitorName(val);
+        overlay.remove();
+      }).catch(function(err) {
+        console.error("Failed to save to server:", err);
+        // Still let the user in if the local server isn't running
+        setStoredVisitorName(val);
+        overlay.remove();
+      });
     }
 
     btn.addEventListener("click", submit);
