@@ -98,6 +98,8 @@ window.SITE_DATA = {
       text_gu: "આદિદેવ નમસ્તુભ્યં, પ્રસીદ મમ ભાસ્કર ।\nદિવાકર નમસ્તુભ્યં, પ્રભાકર નમોસ્તુતે ॥",
       translation: "Salutations to the primal deity, the Sun: be pleased with me, O Bhaskara. Salutations to Divakara and Prabhakara — obeisance to you.",
       translation_gu: "આદિ દેવ સૂર્યને નમસ્કાર; હે ભાસ્કર, મારા પર પ્રસન્ન રહો. હે દિવાકર અને પ્રભાકર, તમને નમસ્કાર.",
+      notes_gu:
+        "સૂર્ય દેવ નો પરિવાર\nપિતા નું નામ:- કશ્યપ ઋષિ\nમાતા નું નામ:- અદિતિ માતા\nપત્ની:- સંજ્ઞા(રાંદલ માતા),છાયા દેવી,અશ્વિની\nપુત્ર નું નામ:- યમ,શનિ,અશ્વિની કુમાર-૪\nસુગ્રીવ, કર્ણ \nપુત્રી ના નામ:- યમુના,ભદ્રા,કાલિંદી, સૂર્વચલા,તાપી \nસસરા નું નામ:- વિશ્વકર્મા\nસાસુ નું નામ:- વ્રોચના",
       language: "Sanskrit",
       language_gu: "સંસ્કૃત / ગુજરાતી",
       religion: "Hinduism",
@@ -150,6 +152,7 @@ window.SITE_DATA = {
       text_gu: "ૐ હ્રીં ક્લીં શ્રી મનસા દેવીય નમઃ\nૐ હ્રીં તત્કારીણી વિષહારીણી વિષરુપિણી વિષમ્ હન ઇન્દ્રસ્ય વજ્રેણ નમઃ",
       translation: "Salutations to Goddess Manasa with the bija mantras Hrim, Klim, Shrim. Salutation to her who removes poison, whose form is poison, who destroys venom — by Indra’s vajra, namah.",
       translation_gu: "હ્રીં, ક્લીં, શ્રી સહિત મનસા દેવીને નમસ્કાર. વિષ હરનારી, વિષરૂપિણી, વિષનાશક — ઇન્દ્રના વજ્રથી નમઃ.",
+      notes_gu: "મનસા દેવી ના પતિ નું નામ જલતકાઈ છે.\nઆસ્તિક ઋષિ ના પિતા થાય \nસાવિત્રી ના પિતા અશ્વપતિ છે.\nકુબેર ભંડારી ની માતા નું નામ ઇરવિરા(આરવિરા) છે.",
       language: "Sanskrit",
       language_gu: "સંસ્કૃત / ગુજરાતી",
       religion: "Hinduism",
@@ -216,7 +219,7 @@ window.SITE_DATA = {
       translation: "With the bija syllables Shrim and Hrim, supplication to Mahalakshmi, who abides on the lotus — be pleased, be pleased; obeisance to great Lakshmi.",
       translation_gu: "શ્રીં, હ્રીં બીજ સાથે કમલ પર વિરાજમાન મહાલક્ષ્મીને પ્રાર્થના — પ્રસન્ન થાઓ; મહાલક્ષ્મીને નમઃ.",
       notes_gu:
-        "મંત્ર: ૐ શ્રીં હ્રીં શ્રીં કમલે કમલાલયે પ્રસીદ પ્રસીદ શ્રીં હ્રીં શ્રીં ૐ મહાલક્ષ્મ્યૈ નમઃ ॥\nપિતા: સમુદ્ર\nમાતા: અનારિકા\nપુત્ર: આનંદ, કર્દમ, ચિક્લિત, શ્રીદ",
+        "લક્ષ્મીજી નો પરિવાર\nલક્ષ્મીજી ના માતા નું નામ:- અનારિકા માતા\nલક્ષ્મીજી ના પિતાનું નામ:- રત્નાકર સાગર\nલક્ષ્મીજી ના પતિ નું નામ:- વિષ્ણુ ભગવાન\nલક્ષ્મીજી ના પુત્રો ના નામ:- ચીકલીત,આનંદ,કર્દમ, શ્રીપદ\nલક્ષ્મી જી નો મંત્ર:-\nॐ श्रीं ह्रीं श्रीं कमले कमलालये प्रसीद प्रसीद।\nश्रीं ह्रीं श्रीं ॐ महालक्ष्म्यै नमः।।",
       language: "Sanskrit",
       language_gu: "સંસ્કૃત / ગુજરાતી",
       religion: "Hinduism",
@@ -308,6 +311,7 @@ window.SITE_DATA = {
       text_gu: "નમામિ ગંગે! તવ પાદપંકજમ્\nસુરાસુરૈર્વન્દિત દિવ્યરૂપમ્ ।\nભુક્તિમ્ ચ મુક્તિમ્ ચ દદાસિ નિત્યમ્\nભાવાનુસારેણ સદા નરાણામ્ ॥",
       translation: "I bow to you, Ganga, to your lotus feet, divine form worshipped by gods and demons — you ever grant enjoyment and liberation to people according to their devotion.",
       translation_gu: "હે ગંગા, તમારા ચરણકમલ અને દિવ્ય સ્વરૂપને નમામિ — દેવાસુર વંદિતા; ભક્તિ અનુસાર ભુક્તિ અને મુક્તિ આપનારી.",
+      notes_gu: "ગંગા માતા નો પરિવાર\nપિતાનું નામ:- હિમાલય\nમાતા નુ નામ :- મેના દેવી\nપતિ નુ નામ :- શાંતનુ ઋષિ\nપુત્ર નુ નામ:- ભીષ્મ પિતામહ \nબહેનનું નામ:- પાર્વતી માતા",
       language: "Sanskrit",
       language_gu: "સંસ્કૃત / ગુજરાતી",
       religion: "Hinduism",
@@ -538,10 +542,10 @@ window.SITE_DATA = {
       id: "jogani-maa-mantra",
       title: "Jogani Maa mantra",
       title_gu: "જોગણીમાં નો મંત્ર",
-      text: "भोजनगन्धा जोगणी, ऋद्धिसिद्धी दे भरपूर\nमें आयो तेरे आंगन, कार्य करजे जरूर",
-      text_gu: "ભોજનગંધા જોગણી, રિધ્ધિસિધ્ધી દે ભરપૂર\nમેં આયો તેરે આંગન, કાર્ય કરજે જરૂર",
-      translation: "Fragrant with food, Jogani Maa — grant riddhi and siddhi in abundance; I have come to your courtyard — please accomplish the work.",
-      translation_gu: "ભોજનગંધા જોગણી, ઋદ્ધિ-સિદ્ધિ ભરપૂર આપો; હું તમારા આંગણે આવ્યો — કાર્ય પૂરું કરજો.",
+      text: "जोजनगन्धा जोगणी, ऋद्धिसिद्धी दे भरपूर\nमें आयो तेरे आंगन, कार्य करजे जरूर",
+      text_gu: "જોજનગંધા જોગણી, રિધ્ધિસિધ્ધી દે ભરપૂર\nમેં આયો તેરે આંગન, કાર્ય કરજે જરૂર",
+      translation: "Jojangandha Jogani, grant riddhi and siddhi in abundance; I have come to your courtyard — please accomplish the work.",
+      translation_gu: "જોજનગંધા જોગણી, ઋદ્ધિ-સિદ્ધિ ભરપૂર આપો; હું તમારા આંગણે આવ્યો — કાર્ય પૂરું કરજો.",
       language: "Gujarati",
       language_gu: "ગુજરાતી",
       religion: "Hinduism",
@@ -611,6 +615,19 @@ window.SITE_DATA = {
       language_gu: "સંસ્કૃત / ગુજરાતી",
       religion: "Hinduism",
       religion_gu: "હિન્દુ ધર્મ"
+    },
+    {
+      id: "savare-ratre-mantra",
+      title: "Morning and night routine mantra",
+      title_gu: "સવારે ઉઠતી વખતે અને રાત્રે સુતી વખતે બોલવાનો મંત્ર",
+      text: "सुखाकारी शुभरात्री सुखाकारी सूर्य\nअमे संसारी अमारु कार्य महा मायाथी मुक्ति\nसर्व कार्य संपन करे।",
+      text_gu: "સુખાકારી શુભરાત્રી સુખાકારી સૂર્ય\nઅમે સંસારી અમારુ કાર્ય મહા માયાથી મુક્તિ\nસર્વ કાર્ય સંપન કરે.",
+      translation: "Prosperity for the good night, prosperity for the sun (day). We are worldly beings; our mission is liberation from the great illusion. May all tasks be accomplished successfully.",
+      translation_gu: "શુભરાત્રિ અને સવારના સૂર્યની સુખાકારી હોજો. અમે સંસારી છીએ, અમારું કાર્ય મહામાયાથી મુક્તિ છે. અમારા સર્વ કાર્યો સંપન્ન કરો.",
+      language: "Gujarati",
+      language_gu: "ગુજરાતી",
+      religion: "Hinduism",
+      religion_gu: "હિન્દુ ધર્મ"
     }
   ],
   religions: [],
@@ -651,6 +668,42 @@ window.SITE_DATA = {
    * relations: [{ role, role_gu, value, value_gu }] (empty value = shown as dash)
    */
   rishiVansh: [
+    {
+      id: "durvasa-rishi",
+      name: "Durvasa Rishi",
+      name_gu: "દુર્વાષા રૂષિ",
+      relations: [
+        { role: "Father", role_gu: "પિતા", value: "Atri Rishi", value_gu: "અત્રી ઋષિ" },
+        { role: "Mother", role_gu: "માતા", value: "Anasuya", value_gu: "અનસોયા માતા" },
+        { role: "Brothers", role_gu: "ભાઈ", value: "Chandra and Dattatreya", value_gu: "ચંદ્ર અને દત્ત મહારાજ" },
+        { role: "Wife", role_gu: "પત્ની", value: "Kanjari Devi (Kandali Devi)", value_gu: "કંજરી દેવી(કંદલી દેવી)" },
+        { role: "Father-in-law", role_gu: "સસરા", value: "Ambarisha Rishi", value_gu: "અંબરીષ રૂષિ" },
+        { role: "Mother-in-law", role_gu: "સાસુ", value: "-", value_gu: "-" }
+      ]
+    },
+    {
+      id: "dadhichi-rishi",
+      name: "Dadhichi Rishi",
+      name_gu: "દધીચિ ઋષિ",
+      relations: [
+        { role: "Father", role_gu: "પિતા", value: "Atharva Rishi", value_gu: "અથર્વ ઋષિ" },
+        { role: "Mother", role_gu: "માતા", value: "Shanti", value_gu: "શાંતિ" },
+        { role: "Wife", role_gu: "પત્ની", value: "Suvarcha", value_gu: "સુવર્ચા" },
+        { role: "Son", role_gu: "પુત્ર", value: "Pippalada", value_gu: "પીપલાદ" }
+      ]
+    },
+    {
+      id: "prahlad",
+      name: "Prahlad",
+      name_gu: "પ્રહલાદ",
+      relations: [
+        { role: "Father", role_gu: "પિતા", value: "Hiranyakashipu", value_gu: "હિરણ્યકશિપુ" },
+        { role: "Mother", role_gu: "માતા", value: "Kayadhu (Daughter of Jambhasura)", value_gu: "કયાધુ (જંભાસુરની દીકરી)" },
+        { role: "Guru", role_gu: "ગુરુ", value: "Shri Bai Mata, Uddalaka Rishi", value_gu: "શ્રી બાઈ માતા, ઉદ્દાલક ઋષિ" }
+      ],
+      details: "Recite the name of your Gotraguru and mention your caste.\nRecite the name of Dadhichi Rishi.\nWhen circumambulating Holika with your nephew (Bhaniya), recite all the above names along with Lord Narsingh's name and pray for blessings for him.",
+      details_gu: "ગોત્રગુરુનું નામ લેવું, પોતાની જાતિ કહેવી.\nદધીચિ ઋષિનું નામ લેવું.\nભાણિયાને હોલિકાની પ્રદક્ષિણા ફેરવતી વખતે ઉપરના બધા નામ લેવાના અને નૃસિંહ ભગવાનનું નામ લઈને કહેવાનું કે અમારા ભાણિયાને આશીર્વાદ આપજો."
+    },
     {
       id: "uddalaka-rishi",
       name: "Uddalaka Rishi",
@@ -813,8 +866,8 @@ window.SITE_DATA = {
         {
           role: "Wife",
           role_gu: "પત્ની",
-          value: "Daughter of Chitraratha",
-          value_gu: "ચિત્રરથની કન્યા"
+          value: "Damini",
+          value_gu: "દામિની"
         }
       ]
     },
