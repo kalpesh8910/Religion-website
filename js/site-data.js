@@ -549,8 +549,8 @@ window.SITE_DATA = {
     },
     {
       id: "dharma-ketava-mantra",
-      title: "Dharma mantra (Ketava)",
-      title_gu: "ધર્મનો મંત્ર",
+      title: "Dhaja mantra (Ketava)",
+      title_gu: "ધજાનો મંત્ર",
       text: "ह्रीं रिं केतवे नमः ॥",
       text_gu: "હ્રીમ રિમ કેતવે નમ:",
       translation: "Hrim, Rim — salutations to Ketu (the banner / comet deity).",
