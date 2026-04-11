@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 480" width="1200" height="480">
+  <defs>
+    <linearGradient id="vibg" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#1d4ed8"/>
+      <stop offset="50%" style="stop-color:#3b82f6"/>
+      <stop offset="100%" style="stop-color:#93c5fd"/>
+    </linearGradient>
+    <filter id="viglow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="1" stdDeviation="2" flood-color="#0c4a6e" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="480" fill="url(#vibg)"/>
+  <text x="600" y="34" text-anchor="middle" fill="#fef9c3" font-family="Georgia,serif" font-size="26" font-weight="600" opacity="0.95">Vishnu</text>
+  <!-- Mantra panel: encloses both lines; clear gap before chakra -->
+  <rect x="220" y="42" width="760" height="84" rx="12" fill="rgba(255,255,255,0.28)" stroke="#fef08a" stroke-width="1" stroke-opacity="0.65"/>
+  <text x="600" y="88" text-anchor="middle" fill="#fefce8" font-family="Noto Sans Devanagari, Mangal, Nirmala UI, sans-serif" font-size="24" font-weight="600" filter="url(#viglow)">ॐ नमो नारायणाय</text>
+  <text x="600" y="114" text-anchor="middle" fill="#e0f2fe" font-family="Georgia,serif" font-size="12" opacity="0.92">Om Namo Narayanaya</text>
+  <!-- Chakra lowered — top edge ~y210 vs panel bottom ~y126 -->
+  <g transform="translate(600,288)">
+    <circle r="78" fill="none" stroke="#fef08a" stroke-width="3" opacity="0.9"/>
+    <circle r="62" fill="none" stroke="#fde047" stroke-width="2" opacity="0.7"/>
+    <g stroke="#fef9c3" stroke-width="2.5" stroke-linecap="round" opacity="0.85">
+      <line x1="0" y1="-72" x2="0" y2="72"/>
+      <line x1="-62" y1="-36" x2="62" y2="36"/>
+      <line x1="62" y1="-36" x2="-62" y2="36"/>
+    </g>
+    <circle r="12" fill="#fef08a" opacity="0.95"/>
+  </g>
+  <!-- Conchs moved down to avoid top band -->
+  <g transform="translate(880,238)" fill="none" stroke="#e0f2fe" stroke-width="2.5" opacity="0.55">
+    <path d="M0,0 C25,-15 45,5 35,35 C25,60 -5,55 -20,30 C-35,5 -15,-25 15,-30"/>
+  </g>
+  <g transform="translate(320,238)" fill="none" stroke="#e0f2fe" stroke-width="2.5" opacity="0.55">
+    <path d="M0,0 C-25,-15 -45,5 -35,35 C-25,60 5,55 20,30 C35,5 15,-25 -15,-30"/>
+  </g>
+  <text x="600" y="448" text-anchor="middle" fill="#bfdbfe" font-family="Noto Sans Devanagari, Mangal, Nirmala UI, sans-serif" font-size="22" opacity="0.9">विष्णु</text>
+</svg>

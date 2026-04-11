@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 480" width="1200" height="480">
+  <defs>
+    <linearGradient id="shbg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e1b4b"/>
+      <stop offset="50%" style="stop-color:#312e81"/>
+      <stop offset="100%" style="stop-color:#4c1d95"/>
+    </linearGradient>
+    <filter id="shglow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="0" stdDeviation="3" flood-color="#c7d2fe" flood-opacity="0.5"/>
+    </filter>
+  </defs>
+  <!-- Background -->
+  <rect width="1200" height="480" fill="url(#shbg)"/>
+  <!-- Trishula FIRST (behind everything) — shorter shaft so it cannot reach footer text -->
+  <g transform="translate(600,302)" stroke="#818cf8" stroke-width="3.5" stroke-linecap="round" fill="none" opacity="0.85">
+    <line x1="0" y1="-98" x2="0" y2="36"/>
+    <line x1="0" y1="-96" x2="-38" y2="-138"/>
+    <line x1="0" y1="-96" x2="38" y2="-138"/>
+    <line x1="0" y1="-96" x2="0" y2="-152"/>
+    <circle cx="0" cy="-152" r="7" fill="#6366f1" stroke="#a5b4fc" stroke-width="1.5"/>
+  </g>
+  <!-- Moon above mantra row (not covered by panel) -->
+  <path d="M600,44 A22,22 0 1 1 600,80 A17,17 0 1 0 600,44" fill="#e0e7ff" opacity="0.95"/>
+  <!-- Opaque mantra panel on top of trident so prongs never show through -->
+  <rect x="268" y="96" width="664" height="82" rx="12" fill="#1e1b4b" stroke="#a5b4fc" stroke-width="1.5" stroke-opacity="0.7"/>
+  <rect x="272" y="100" width="656" height="74" rx="10" fill="#252447"/>
+  <text x="600" y="142" text-anchor="middle" fill="#fef08a" font-family="Noto Sans Devanagari, Mangal, Nirmala UI, sans-serif" font-size="27" font-weight="600" filter="url(#shglow)">ॐ नमः शिवाय</text>
+  <text x="600" y="166" text-anchor="middle" fill="#c7d2fe" font-family="Georgia,serif" font-size="13" opacity="0.95">Om Namah Shivaya</text>
+  <!-- Footer label on its own solid strip so stem never crosses text -->
+  <rect x="450" y="388" width="300" height="72" rx="10" fill="#1e1b4b" stroke="#4c1d95" stroke-width="1" stroke-opacity="0.6"/>
+  <text x="600" y="424" text-anchor="middle" fill="#c7d2fe" font-family="Georgia,serif" font-size="26" font-weight="600">Shiva</text>
+  <text x="600" y="448" text-anchor="middle" fill="#a5b4fc" font-family="Noto Sans Devanagari, Mangal, Nirmala UI, sans-serif" font-size="20">शिव</text>
+</svg>
