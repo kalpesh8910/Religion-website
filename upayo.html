@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Religion overviews and details.">
-  <title>Religions — Religion &amp; Mantras</title>
+  <meta name="description" content="Traditional remedies and health notes." data-i18n-meta="meta_upayo">
+  <title data-i18n="doc_title_upayo">Upayo — Religion &amp; Mantras</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Devanagari:wght@400;600&family=Noto+Sans+Gujarati:wght@400;600&family=Source+Sans+3:ital,wght@0,400;0,600;1,400&family=Source+Serif+4:ital,wght@0,600;1,400&display=swap" rel="stylesheet">
@@ -24,7 +24,7 @@
               <li><a href="rishi-vansh.html" data-i18n="nav_rishi_vansh">Sage lineages</a></li>
               <li><a href="daily-karvanu.html" data-i18n="nav_daily_karvanu">Roj krvano vahivat (Nari)</a></li>
               <li><a href="asan-fulo.html" data-i18n="nav_asan_fulo">Bhagvan na asan ane fulo</a></li>
-              <li><a href="upayo.html" data-i18n="nav_upayo">Upayo</a></li>
+              <li><a href="upayo.html" data-i18n="nav_upayo" aria-current="page">Upayo</a></li>
             </ul>
           </nav>
           <div class="mantro-wrap" id="mantro-wrap">
@@ -34,16 +34,15 @@
             </div>
           </div>
           <a href="dharm-knowledge.html" class="mantro-btn" data-i18n="nav_dharm_knowledge">Dharm Knowledge</a>
-          
         </div>
-                <div class="lang-switcher">
-            <label for="site-lang" data-i18n="site_lang_label">Site language</label>
-            <select id="site-lang" aria-label="Site language">
-              <option value="en" data-i18n-label="opt_lang_en">English</option>
-              <option value="gu" data-i18n-label="opt_lang_gu">ગુજરાતી</option>
+        <div class="lang-switcher">
+          <label for="site-lang" data-i18n="site_lang_label">Site language</label>
+          <select id="site-lang" aria-label="Site language">
+            <option value="en" data-i18n-label="opt_lang_en">English</option>
+            <option value="gu" data-i18n-label="opt_lang_gu">ગુજરાતી</option>
             <option value="hi" data-i18n-label="opt_lang_hi">हिन्दी</option>
-            </select>
-          </div>
+          </select>
+        </div>
         <a class="header-profile" href="profile.html" data-i18n-aria-label="nav_profile_aria">
           <svg class="header-profile-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
           <span class="header-profile-label" data-i18n="nav_profile">Profile</span>
@@ -52,11 +51,24 @@
     </div>
   </header>
   <main id="main">
-    <h1 class="section-title" data-i18n="religions_h1">Religion details</h1>
-    <div id="religion-list" class="card-grid"></div>
+    <h1 class="section-title" data-i18n="upayo_h1">Remedies (Upayo)</h1>
+    
+    <div class="card-grid">
+      <article class="card">
+        <h2 data-i18n="upayo_disease_title">🌸 Remedy for curing any disease:</h2>
+        <p class="religion-desc" data-i18n="upayo_disease_intro">To cure any disease, follow this process with faith:</p>
+        <ul class="practices">
+          <li data-i18n="upayo_disease_step1">Take the juice of 3 Peepal (Sacred Fig) leaves.</li>
+          <li data-i18n="upayo_disease_step2">Mix water from 2 different rivers.</li>
+        </ul>
+        <div class="translation" style="margin-top: 1.5rem; padding: 1rem; background: var(--accent-very-soft); border-radius: 8px; border-left: 4px solid var(--accent);">
+          <p style="font-weight: 600; color: var(--text);" data-i18n="upayo_disease_chant">Drink this mixture while chanting the names of Dadhichi Rishi, Shani Dev, Pippalada Rishi, Vanadevi, and Dhanvantari Dev.</p>
+        </div>
+      </article>
+    </div>
   </main>
   <footer class="site-footer">
-    <p data-i18n-html="footer_edit_data">Add or edit entries in <code>js/site-data.js</code>.</p>
+    <p data-i18n="footer_public">Public reference site — content is provided for education and devotion.</p>
   </footer>
   <script src="js/i18n.js"></script>
   <script src="js/site-data.js"></script>

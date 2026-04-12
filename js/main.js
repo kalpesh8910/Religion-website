@@ -20,9 +20,13 @@
   }
 
   function pickLocalized(obj, field, lang) {
-    var guKey = field + "_gu";
-    if (lang === "gu" && obj[guKey] != null && String(obj[guKey]).trim() !== "") {
-      return obj[guKey];
+    if (lang === "gu") {
+      var guKey = field + "_gu";
+      if (obj[guKey] != null && String(obj[guKey]).trim() !== "") return obj[guKey];
+    }
+    if (lang === "hi") {
+      var hiKey = field + "_hi";
+      if (obj[hiKey] != null && String(obj[hiKey]).trim() !== "") return obj[hiKey];
     }
     return obj[field] != null ? obj[field] : "";
   }
@@ -30,6 +34,9 @@
   function pickLocalizedPractices(obj, lang) {
     if (lang === "gu" && obj.practices_gu && obj.practices_gu.length) {
       return obj.practices_gu;
+    }
+    if (lang === "hi" && obj.practices_hi && obj.practices_hi.length) {
+      return obj.practices_hi;
     }
     return obj.practices || [];
   }
