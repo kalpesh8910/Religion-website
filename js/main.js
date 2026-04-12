@@ -1217,5 +1217,24 @@
     applyHeaderAvatar();
     ensureVisitorName();
     initMobileMenu();
+
+    // Basic anti-inspect countermeasures
+    document.addEventListener("contextmenu", function(e) {
+      e.preventDefault();
+    });
+    document.addEventListener("keydown", function(e) {
+      if (e.key === "F12") {
+        e.preventDefault();
+      }
+      if ((e.ctrlKey || e.metaKey) && e.shiftKey && e.key.toLowerCase() === "i") {
+        e.preventDefault();
+      }
+      if ((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === "u") {
+        e.preventDefault();
+      }
+      if ((e.ctrlKey || e.metaKey) && e.shiftKey && e.key.toLowerCase() === "j") {
+        e.preventDefault();
+      }
+    });
   });
 })();

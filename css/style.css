@@ -430,9 +430,7 @@ body.lang-gu .mantra-lang-heading {
     padding: 0.5rem 0;
   }
   
-  .mantro-btn,
-  .lang-switcher,
-  .lang-switcher select {
+  .mantro-btn {
     width: 100%;
     text-align: left;
   }
