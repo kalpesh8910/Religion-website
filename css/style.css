@@ -727,7 +727,13 @@ body.lang-gu .mantra-lang-heading {
   background: var(--surface);
   color: var(--text);
   cursor: pointer;
-  min-width: 7.5rem;
+  min-width: 6rem;
+}
+
+@media (max-width: 768px) {
+  .lang-switcher label {
+    display: none;
+  }
 }
 
 .logo {
