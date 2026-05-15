@@ -79,6 +79,8 @@
       meta_photos: "Photo gallery — deities, places, and devotion.",
       meta_dharm_knowledge: "Dharm knowledge notes including sacred place lists.",
       carousel_aria: "Homepage image gallery",
+      home_featured_alt:
+        "Young Lord Shiva playing the pungi flute, surrounded by cobras, with Om on the forehead and crescent moon in his hair",
       hero_slide_1_alt: "Lord Brahma banner with mantra Om Brahmane Namah, lotus and four directions",
       hero_slide_2_alt: "Lord Shiva banner with mantra Om Namah Shivaya, moon and trident",
       hero_slide_3_alt: "Lord Vishnu banner with mantra Om Namo Narayanaya, disc and conch motifs",
@@ -773,6 +775,8 @@
       meta_photos: "ફોટો ગેલેરી — દેવતાઓ, સ્થાનો અને ભક્તિ.",
       meta_dharm_knowledge: "ધર્મ જ્ઞાન નોંધો અને પવિત્ર સ્થળોની યાદી.",
       carousel_aria: "મુખપૃષ્ઠ ચિત્ર ગેલેરી",
+      home_featured_alt:
+        "યુવા ભગવાન શિવ પુંગી વાગે છે, નાગો વચ્ચે, કપાળ પર ૐ અને વાળમાં ચંદ્ર",
       hero_slide_1_alt: "ભગવાન બ્રહ્મા — ॐ બ્રહ્મણે નમઃ મંત્ર, કમળ અને ચાર દિશાઓ",
       hero_slide_2_alt: "ભગવાન શિવ — ॐ નમઃ શિવાય મંત્ર, ચંદ્ર અને ત્રિશૂળ",
       hero_slide_3_alt: "ભગવાન વિષ્ણુ — ॐ નમો નારાયણાય મંત્ર, ચક્ર અને શંખ",
@@ -1465,6 +1469,8 @@
       meta_photos: "फोटो गैलरी — देवता, स्थान और भक्ति।",
       meta_dharm_knowledge: "धर्म ज्ञान नोट्स और पवित्र स्थलों की सूची।",
       carousel_aria: "होमपेज छवि गैलरी",
+      home_featured_alt:
+        "युवा भगवान शिव पुंगी बजाते हुए, नागों के बीच, माथे पर ॐ और बालों में चंद्रमा",
       hero_slide_1_alt: "भगवान ब्रह्मा — ॐ ब्रह्मणे नमः मंत्र, कमल और चार दिशाएं",
       hero_slide_2_alt: "भगवान शिव — ॐ नमः शिवाय मंत्र, चंद्रमा और त्रिशूल",
       hero_slide_3_alt: "भगवान विष्णु — ॐ नमो नारायणाय मंत्र, चक्र और शंख",
