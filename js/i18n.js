@@ -81,6 +81,8 @@
       carousel_aria: "Homepage image gallery",
       home_featured_alt:
         "Young Lord Shiva playing the pungi flute, surrounded by cobras, with Om on the forehead and crescent moon in his hair",
+      home_featured_waghanath_alt:
+        "Sant Shri Waghanath Bapu — devotional poster with Gujarati text",
       hero_slide_1_alt: "Lord Brahma banner with mantra Om Brahmane Namah, lotus and four directions",
       hero_slide_2_alt: "Lord Shiva banner with mantra Om Namah Shivaya, moon and trident",
       hero_slide_3_alt: "Lord Vishnu banner with mantra Om Namo Narayanaya, disc and conch motifs",
@@ -777,6 +779,8 @@
       carousel_aria: "મુખપૃષ્ઠ ચિત્ર ગેલેરી",
       home_featured_alt:
         "યુવા ભગવાન શિવ પુંગી વાગે છે, નાગો વચ્ચે, કપાળ પર ૐ અને વાળમાં ચંદ્ર",
+      home_featured_waghanath_alt:
+        "સંત શ્રી વાઘનાથ બાપુ — ભક્તિ પોસ્ટર, ગુજરાતી લખાણ સાથે",
       hero_slide_1_alt: "ભગવાન બ્રહ્મા — ॐ બ્રહ્મણે નમઃ મંત્ર, કમળ અને ચાર દિશાઓ",
       hero_slide_2_alt: "ભગવાન શિવ — ॐ નમઃ શિવાય મંત્ર, ચંદ્ર અને ત્રિશૂળ",
       hero_slide_3_alt: "ભગવાન વિષ્ણુ — ॐ નમો નારાયણાય મંત્ર, ચક્ર અને શંખ",
@@ -1471,6 +1475,8 @@
       carousel_aria: "होमपेज छवि गैलरी",
       home_featured_alt:
         "युवा भगवान शिव पुंगी बजाते हुए, नागों के बीच, माथे पर ॐ और बालों में चंद्रमा",
+      home_featured_waghanath_alt:
+        "संत श्री वाघनाथ बापू — भक्ति पोस्टर, गुजराती लेख के साथ",
       hero_slide_1_alt: "भगवान ब्रह्मा — ॐ ब्रह्मणे नमः मंत्र, कमल और चार दिशाएं",
       hero_slide_2_alt: "भगवान शिव — ॐ नमः शिवाय मंत्र, चंद्रमा और त्रिशूल",
       hero_slide_3_alt: "भगवान विष्णु — ॐ नमो नारायणाय मंत्र, चक्र और शंख",

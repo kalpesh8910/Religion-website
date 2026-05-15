@@ -812,8 +812,21 @@ main {
 
 .home-featured {
   margin: 0 auto 1.75rem;
-  max-width: 22rem;
+  max-width: 52rem;
   text-align: center;
+}
+
+.home-featured-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+  gap: 1.25rem;
+}
+
+.home-featured-row .home-featured-frame {
+  flex: 1 1 14rem;
+  max-width: 22rem;
 }
 
 .home-featured-frame {
@@ -849,8 +862,8 @@ main {
 }
 
 @media (min-width: 640px) {
-  .home-featured {
-    max-width: 26rem;
+  .home-featured-row .home-featured-frame {
+    max-width: 24rem;
   }
 }
 
