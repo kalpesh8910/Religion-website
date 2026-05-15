@@ -1094,6 +1094,34 @@ window.SITE_DATA = {
       ]
     },
     {
+      id: "kubera",
+      name: "Kubera",
+      name_gu: "કુબેર",
+      relations: [
+        { role: "Mother", role_gu: "માતા", value: "Iravira (Aravira)", value_gu: "ઇરવિરા (આરવિરા)" },
+        { role: "Father", role_gu: "પિતા", value: "Vishrava Rishi", value_gu: "વિશ્રવા ઋષિ" },
+        { role: "Grandfather", role_gu: "દાદા", value: "Pulastya Rishi", value_gu: "પુલસ્ત્ય ઋષિ" },
+        {
+          role: "Half-brothers",
+          role_gu: "સાવકા ભાઈઓ",
+          value: "Ravana; Vibhishana; Kumbhakarna",
+          value_gu: "રાવણ; વિભીષણ; કુંભકર્ણ"
+        },
+        {
+          role: "Their mother",
+          role_gu: "તેમની માતા",
+          value: "Kaikesi",
+          value_gu: "કૈકસી"
+        },
+        {
+          role: "Their father",
+          role_gu: "તેમના પિતા",
+          value: "Vishrava Rishi",
+          value_gu: "વિશ્રવા ઋષિ"
+        }
+      ]
+    },
+    {
       id: "nandi",
       name: "Nandiji (Nandi)",
       name_gu: "નંદીજી",
