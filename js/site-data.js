@@ -1098,7 +1098,7 @@ window.SITE_DATA = {
       name: "Kubera",
       name_gu: "કુબેર",
       relations: [
-        { role: "Mother", role_gu: "માતા", value: "Iravira (Aravira)", value_gu: "ઇરવિરા (આરવિરા)" },
+        { role: "Mother", role_gu: "માતા", value: "Iravira (Aravira)", value_gu: "ઇરવિરા" },
         { role: "Father", role_gu: "પિતા", value: "Vishrava Rishi", value_gu: "વિશ્રવા ઋષિ" },
         { role: "Grandfather", role_gu: "દાદા", value: "Pulastya Rishi", value_gu: "પુલસ્ત્ય ઋષિ" },
         {
