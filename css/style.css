@@ -420,10 +420,18 @@ body.lang-gu .mantra-lang-heading {
 .header-nav-wrap {
   display: flex;
   align-items: center;
-  gap: 0.5rem 0.85rem;
-  flex-wrap: nowrap;
+  justify-content: flex-end;
+  gap: 0.4rem 0.85rem;
+  row-gap: 0.35rem;
+  flex-wrap: wrap;
   flex: 1;
   min-width: 0;
+}
+
+.header-nav-wrap nav {
+  flex: 1 1 auto;
+  min-width: 0;
+  max-width: 100%;
 }
 
 .mobile-menu-btn {
@@ -518,22 +526,21 @@ body.lang-gu .mantra-lang-heading {
   }
 }
 
-/* Wide screens: full nav in one horizontal line */
+/* Wide screens: nav wraps to the next line — no horizontal scroll */
 @media (min-width: 1101px) {
   .mobile-menu-btn {
     display: none;
   }
 
   .header-nav-wrap {
-    overflow-x: auto;
-    overflow-y: hidden;
-    scrollbar-width: thin;
-    -webkit-overflow-scrolling: touch;
+    overflow: visible;
   }
 
   nav ul {
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
+    justify-content: flex-end;
     gap: 0.35rem 0.65rem;
+    row-gap: 0.25rem;
   }
 
   nav a,
@@ -868,8 +875,10 @@ nav ul {
   margin: 0;
   padding: 0;
   display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
   gap: 0.35rem 0.75rem;
-  flex-wrap: nowrap;
+  row-gap: 0.25rem;
 }
 
 nav a {
